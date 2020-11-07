@@ -58,7 +58,7 @@
       </div>
       <div class="col-md-3 mb-3">
         <label for="validationDefault04">Contact no.</label>
-        <input type="text" class="form-control" id="validationDefault03" placeholder="Mobile No." required>
+        <input type="text" class="form-control" id="validationDefault06" placeholder="Mobile No." required>
       </div>
       <div class="col-md-3 mb-3">
         <label for="validationDefault05">State</label>
@@ -98,6 +98,60 @@
       $scope.showMe = false;
       $scope.myFunc = function()
       {
+        var checka = document.getElementById("validationDefault08");
+        var checkb = document.getElementById("validationDefault07");
+        var checkc = document.getElementById("validationDefault06");
+        var checkd = document.getElementById("validationDefault05");
+        var checke = document.getElementById("validationDefault04");
+        var checkf = document.getElementById("validationDefault03");
+        var checkg = document.getElementById("validationDefault02");
+        var checkh = document.getElementById("validationDefault01");
+        var checki = document.getElementById("validationDefaultUsername");
+        if (checka.value === "")
+        {
+          alert('Fill the form!');
+          return;
+        }
+        if (checkb.value === "")
+        {
+          alert('Fill the form!');
+          return;
+        }
+        if (checkc.value === "")
+        {
+          alert('Fill the form!');
+          return;
+        }
+        if (checkd.value === "")
+        {
+          alert('Fill the form!');
+          return;
+        }
+        if (checke.value === "")
+        {
+          alert('Fill the form!');
+          return;
+        }
+        if (checkf.value === "")
+        {
+          alert('Fill the form!');
+          return;
+        }
+        if (checkg.value === "")
+        {
+          alert('Fill the form!');
+          return;
+        }
+        if (checkh.value === "")
+        {
+          alert('Fill the form!');
+          return;
+        }
+        if (checki.value === "")
+        {
+          alert('Fill the form!');
+          return;
+        }
         $scope.showMe = !$scope.showMe;
       }
     });
